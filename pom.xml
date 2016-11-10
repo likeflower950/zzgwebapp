@@ -28,7 +28,7 @@
     	
     	
     	
-        <!-- 连接MySQL数据库需要的jar包 -->  
+        <!-- 连接MySQL数据库需要的jar包 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -166,12 +166,11 @@
 			<scope>compile</scope>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-asm -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-asm</artifactId>
-			<version>${springversion}</version>
-			<type>jar</type>
-			<scope>compile</scope>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-asm</artifactId>
+		    <version>3.0.7.RELEASE</version>
 		</dependency>
 		
 		<dependency>
